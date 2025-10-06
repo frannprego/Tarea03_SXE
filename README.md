@@ -45,6 +45,12 @@
      exit
 - Descripción: El contenedor se detiene, pero no se elimina.
 
+## ## 7. Espacio en disco
+- Comando:
+    ```bash
+    docker system df
+ - Descripción: Muestra la memoria ocupada en disco.
+
 
 
 
