@@ -13,6 +13,11 @@
   docker create alpine
 - Descripción: Crea un contenedor pero no lo arranca
 
+## 3. Crear contenedor dam_alp1
+- Comando:
+  ```bash
+   docker run -it --name dam_alp1 alpine sh
+- Descripción: Crea y accede al contenedor.
 
 
 
