@@ -19,5 +19,13 @@
    docker run -it --name dam_alp1 alpine sh
 - Descripción: Crea y accede al contenedor.
 
+## 4. Comprobar ip y ping a google
+- Comando:
+  ```bash
+    ip addr
+- Comando ping:
+  ```bash
+  ping -c 4 google.com
+- Descripción: Obtener IP y comprobar conexión.ç
 
 
