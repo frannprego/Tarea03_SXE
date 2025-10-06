@@ -2,7 +2,9 @@
 # Práctica Docker Alpine
 
 ## 1. Descargar la imagen Alpine
-**Comando:**  
-```docker pull alpine```
+- Comando:
+  ```bash
+  docker pull alpine
+- Descripción: Descarga la imagen sin arrancarla.
 
 
