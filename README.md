@@ -11,7 +11,7 @@
 - Comando:
   ```bash
   docker create alpine
-- Descripción: Crea un contenedor pero no lo arranca
+- Descripción: Crea un contenedor pero no lo arranca.
 
 ## 3. Crear contenedor dam_alp1
 - Comando:
@@ -19,14 +19,14 @@
    docker run -it --name dam_alp1 alpine sh
 - Descripción: Crea y accede al contenedor.
 
-## 4. Comprobar ip y ping a google
+## 4. Comprobar IP y ping a google
 - Comando:
   ```bash
     ip addr
 - Comando ping:
   ```bash
   ping -c 4 google.com
-- Descripción: Obtener IP y comprobar conexión.
+- Descripción: Obtiene la IP y comprueba la conexión.
 
 ## 5. Crear contenedor dam_alp2 y ping entre contenedores
 - Comandos:
@@ -45,13 +45,13 @@
      exit
 - Descripción: El contenedor se detiene, pero no se elimina.
 
-## ## 7. Espacio en disco
+## 7. Espacio en disco
 - Comando:
     ```bash
     docker system df
  - Descripción: Muestra la memoria ocupada en disco.
 
-## Uso de RAM
+## 8. Uso de RAM
 - Comando:
   ```bash
     docker stats
