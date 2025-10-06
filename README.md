@@ -51,6 +51,11 @@
     docker system df
  - Descripción: Muestra la memoria ocupada en disco.
 
+## Uso de RAM
+- Comando:
+  ```bash
+    docker stats
+- Descripción: Muestra el uso de RAM y CPU de los contenedores.
 
 
 
