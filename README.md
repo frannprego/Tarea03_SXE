@@ -39,6 +39,12 @@
 - Con la IP de dam_alp1, hacemos ping desde dam_alp2.
 - Los contenedores se pueden comunicar porque están en la misma red
 
+## 6. Sal del terminal, ¿qué ocurre con el contenedor?
+- Comando:
+   ```bash
+     exit
+- Descripción: El contenedor se detiene, pero no se elimina.
+
 
 
 
