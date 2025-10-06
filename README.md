@@ -26,6 +26,19 @@
 - Comando ping:
   ```bash
   ping -c 4 google.com
-- Descripción: Obtener IP y comprobar conexión.ç
+- Descripción: Obtener IP y comprobar conexión.
+
+## 5. Crear contenedor dam_alp2 y ping entre contenedores
+- Comandos:
+  ```bash
+  docker run -it --name dam_alp2 alpine /bin/sh
+  apk add iproute2 iputils
+  docker exec dam_alp1 ip addr show eth0
+  ping -c 4 <IP_dam_alp1>
+- Se crea un segundo contenedor y se instala ping.
+- Con la IP de dam_alp1, hacemos ping desde dam_alp2.
+- Los contenedores se pueden comunicar porque están en la misma red
+
+
 
 
